@@ -141,4 +141,29 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.ProfileIcon.Xpath")));
 		return new Dashboard360();
 	}
+
+
+	public IcustAddBaseDenominationmaintenance selectMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustAddBaseDenominationmaintenance();
+	}
+
+	public IcustAddProductMaintenance selectaddMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustAddProductMaintenance();
+	}
+
+	public IcustAddTillConfiguration selectprodMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustAddTillConfiguration();
+	}
+	
+	public IcustAddTillvaultMaintenance selectTillMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustAddTillvaultMaintenance();
+	}
 }
