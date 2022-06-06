@@ -166,4 +166,64 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		wait(7000);
 		return new IcustAddTillvaultMaintenance();
 	}
+
+	public ICUSTEDITBASEDENOMINATION selectEditBaseDenomination() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new ICUSTEDITBASEDENOMINATION();
+	}
+
+	public IcustDeleteBaseDenomination selectDeleteBaseDenomination() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustDeleteBaseDenomination();
+	}
+
+	public IcustEditProductMaintenance EditProductMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustEditProductMaintenance();
+	}
+
+	public IcustDeleteBaseDenomination selectDeleteProductDenomination() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustDeleteBaseDenomination();
+	}
+
+	public IcustEditTillConfiguration EditTillConfiguration() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustEditTillConfiguration();
+	}
+
+	public IcustDeleteTillConfiguration selectDeleteTillDenomination() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustDeleteTillConfiguration();
+	}
+
+	public IcustEditTillMaintenance EditTillMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustEditTillMaintenance();
+	}
+
+	public IcustDeleteTillMaintenance selectDeleteTillMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustDeleteTillMaintenance();
+	}
+
+	public IcustEditBranchMappingMaintenance EditBranchMappingMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustEditBranchMappingMaintenance();
+	}
+
+	public IcustDeleteBranchMapping selectDeleteBranchMapping() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
+		wait(7000);
+		return new IcustDeleteBranchMapping();
+	}
 }
