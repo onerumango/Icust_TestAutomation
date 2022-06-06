@@ -101,6 +101,10 @@ public class LoanCollateralDetails extends IcustSpecificMethods{
 		enterValue(locateElement("xpath", props.getProperty("LoanCollateralDetails.Coveravailable.Xpath")),props.getProperty("Coveravailable"));
 		return this;
 	}
+	public IcustLoanGuranatorDetails enterCifnumber() {
+		enterValue(locateElement("xpath", props.getProperty("LoanGuranatorDetails.Cifnumber.Xpath")),props.getProperty("cifNumber"));
+		return new  IcustLoanGuranatorDetails();
+	}
 	
 	
 	
