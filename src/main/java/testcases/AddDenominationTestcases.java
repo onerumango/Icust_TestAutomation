@@ -2,10 +2,8 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-
-
-import pages.IcustTellerLogin;
 import base.IcustSpecificMethods;
+import pages.dashboard.IcustTellerLogin;
 
 public class AddDenominationTestcases extends IcustSpecificMethods{
 	@Test

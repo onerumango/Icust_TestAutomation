@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 
 import base.IcustSpecificMethods;
+import pages.dashboard.IcustTellerDashboard;
 
 public class IcustKYCBranchVerificationTab3 extends IcustSpecificMethods{
 
