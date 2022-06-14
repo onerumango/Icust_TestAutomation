@@ -4,8 +4,7 @@ import org.testng.annotations.Test;
 
 
 import base.IcustSpecificMethods;
-
-import pages.IcustTellerLogin;
+import pages.dashboard.IcustTellerLogin;
 
 public class IcustQualitativeScoreboarddetails extends IcustSpecificMethods{
 	@Test
