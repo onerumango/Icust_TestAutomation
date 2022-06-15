@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import base.IcustSpecificMethods;
-import pages.dashboard.IcustTellerDashboard;
 
 public class IcustNewCustomerOnboarding4 extends IcustSpecificMethods{
 

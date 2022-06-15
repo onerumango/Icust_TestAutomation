@@ -2,7 +2,7 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-import pages.dashboard.IcustTellerLogin;
+import pages.IcustTellerLogin;
 
 
 

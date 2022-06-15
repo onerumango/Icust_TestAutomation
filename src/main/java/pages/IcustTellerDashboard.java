@@ -1,23 +1,6 @@
-package pages.dashboard;
+package pages;
 
 import base.IcustSpecificMethods;
-import pages.Dashboard360;
-import pages.ICustCorporateBasicInformation;
-import pages.ICustCreateAccountTaskSummary;
-import pages.IcustCorporateOnboardingTaskSummary;
-import pages.IcustCreateAccountDetails;
-import pages.IcustCustomerOnboardingTaskSummary;
-import pages.IcustKYCTaskSummary;
-import pages.IcustKYCVerification;
-import pages.IcustLoanAccountAdmissionDetails;
-import pages.IcustMaintenance;
-import pages.IcustNewCustomerOnboarding1;
-import pages.IcustPickAToken;
-import pages.IcustTellerDashboardSearchAndViewProfile;
-import pages.IcustTokenServices;
-import pages.IcustTokenServicesCashDeposit;
-import pages.IcustTokenServicesCashWithdrawal;
-import pages.LoanCollateralDetails;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.ICUSTEDITBASEDENOMINATION;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.IcustAddBaseDenominationmaintenance;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.IcustAddProductMaintenance;

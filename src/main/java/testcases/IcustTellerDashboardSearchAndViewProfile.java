@@ -4,7 +4,7 @@ package testcases;
 import org.testng.annotations.Test;
 
 import base.IcustSpecificMethods;
-import pages.dashboard.IcustTellerLogin;
+import pages.IcustTellerLogin;
 
 public class IcustTellerDashboardSearchAndViewProfile extends IcustSpecificMethods{
 	

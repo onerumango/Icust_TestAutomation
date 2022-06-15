@@ -1,4 +1,4 @@
-package pages.dashboard;
+package pages;
 
 import base.IcustSpecificMethods;
 
