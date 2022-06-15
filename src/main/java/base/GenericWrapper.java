@@ -39,7 +39,7 @@ public class GenericWrapper {
 		try {
 			
 			
-			System.setProperty("webdriver.chrome.driver", "F:/AutomationProject/Icust_TestAutomation/drivers/chromedriver1.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver1.exe");
 			  
 			/*
 			 * HashMap<String, Object> chromePrefs = new HashMap<String, Object>();

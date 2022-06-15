@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.IcustCorporateOnboardingTaskSummaryTC">
+      <class name="testcases.IcustTellerLoginApplication">
         <methods>
           <include name="launchApplication"/>
-          <include name="runCreateAccountTaskSummary"/>
           <include name="closeBrowser"/>
+          <include name="runIcustLogin"/>
         </methods>
-      </class> <!-- testcases.IcustCorporateOnboardingTaskSummaryTC -->
+      </class> <!-- testcases.IcustTellerLoginApplication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
