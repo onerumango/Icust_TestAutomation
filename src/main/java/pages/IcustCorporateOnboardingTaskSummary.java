@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import base.IcustSpecificMethods;
 
 public class IcustCorporateOnboardingTaskSummary extends IcustSpecificMethods{
+	
 
 	public IcustCorporateOnboardingTaskSummary corporateEnterSearchValue() {
 		enterValue(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.Search.Xpath")),

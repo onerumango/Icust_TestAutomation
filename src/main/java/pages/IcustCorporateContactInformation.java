@@ -4,13 +4,13 @@ import base.IcustSpecificMethods;
 
 public class IcustCorporateContactInformation extends IcustSpecificMethods{
 	
-	public IcustCorporateContactInformation selectContactAddressType() {
-		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.AddressTypeDropdown.Xpath")));
-		wait(2000);
-		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.ContactSelectAddressType.Xpath")));
-		wait(2000);
-		return this;
-	}
+//	public IcustCorporateContactInformation selectContactAddressType() {
+//		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.AddressTypeDropdown.Xpath")));
+//		wait(2000);
+//		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.ContactSelectAddressType.Xpath")));
+//		wait(2000);
+//		return this;
+//	}
 	
 	public IcustCorporateContactInformation enterContactAddress1() {
 		enterValue(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.DirectorAddress1.Xpath")), props.getProperty("DirectorAddress1"));

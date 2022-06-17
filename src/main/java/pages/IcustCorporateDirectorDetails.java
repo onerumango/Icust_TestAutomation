@@ -17,6 +17,12 @@ public class IcustCorporateDirectorDetails extends IcustSpecificMethods{
 		wait(2000);
 		return this;
 	}
+//	public IcustCorporateDirectorDetails enterPlaceofBirth() {
+//		clickElement(locateElement("xpath", props.getproperty("IcustCorporateCustomerOnboarding.PlaceOfBirthDropdown.Xpath")));
+//		wait(2000);
+//		
+//	}
+	
 	
 	public IcustCorporateDirectorDetails selectPrefix() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.PrefixDropdown.Xpath")));
@@ -52,17 +58,15 @@ public class IcustCorporateDirectorDetails extends IcustSpecificMethods{
 		clickElement(dob);
 		wait(2000);
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectDateOfBirth.Date.Xpath")));
+		wait(10000);
+		return this;
+	}
+	public IcustCorporateDirectorDetails enterPlaceofBirth() {
+        enterValue(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.PlaceOfBirth.Xpath")), props.getProperty("PlaceOfBirth"));
 		wait(2000);
 		return this;
 	}
-	
-	public IcustCorporateDirectorDetails selectPlaceOfBirth() {
-		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.PlaceOfBirthDropdown.Xpath")));
-		wait(2000);
-		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectPlaceOfBirth.Xpath")));
-		wait(2000);
-		return this;
-	}
+
 	
 	public IcustCorporateDirectorDetails selectResidenceType() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.ResidenceTypeDropdown.Xpath")));
@@ -102,15 +106,15 @@ public class IcustCorporateDirectorDetails extends IcustSpecificMethods{
 		return this;
 	}
 	
-	public IcustCorporateDirectorDetails selectValidTill() {
-		WebElement datepickIcon =locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectValidTill.Xpath"));
-		wait(2000);
-		clickElement(datepickIcon);
-		wait(2000);
-		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectValidTill.Date.Xpath")));
-		wait(2000);
-		return this;
-	}
+//	public IcustCorporateDirectorDetails selectValidTill() {
+//		WebElement datepickIcon =locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectValidTill.Xpath"));
+//		wait(2000);
+//		clickElement(datepickIcon);
+//		wait(2000);
+//		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectValidTill.Date.Xpath")));
+//		wait(2000);
+//		return this;
+//	}
 	
 	public IcustCorporateDirectorDetails enterDirectorAddress1() {
 		enterValue(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.DirectorAddress1.Xpath")), props.getProperty("DirectorAddress1"));
