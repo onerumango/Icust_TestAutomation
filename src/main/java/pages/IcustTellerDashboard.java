@@ -1,6 +1,7 @@
 package pages;
 
 import base.IcustSpecificMethods;
+import pages.dashBoard360.IcustTellerDashboardSearchAndViewProfileDashboard360;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.ICUSTEDITBASEDENOMINATION;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.IcustAddBaseDenominationmaintenance;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.IcustAddProductMaintenance;
@@ -112,11 +113,6 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		wait(1000);
 		return new IcustTokenServicesCashWithdrawal();
 	}
-	public IcustTellerDashboardSearchAndViewProfile clickSearch() {
-		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.clickSearch.Xpath")));
-		wait(3000);
-		return new IcustTellerDashboardSearchAndViewProfile();
-	}
 	
 	public IcustTokenServices clickServicesToggleButton() {
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.TokenServices.clickToggleButton.Xpath")));		
@@ -146,16 +142,16 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 //		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Search.Xpath")));
 //		return this;
 //	}
-	public IcustTellerDashboard enterAccountId() {
-		enterValue(locateElement("xpath", props.getProperty("IcustTellerDashboard.AccountId.Xpath")),props.getProperty("AccountId"));
-		return this;
+	
+	
+	
+	public IcustTellerDashboardSearchAndViewProfileDashboard360 clickSearch() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.clickSearch.Xpath")));
+		wait(3000);
+		return new IcustTellerDashboardSearchAndViewProfileDashboard360();
 	}
-	public Dashboard360 clickProfile() {
-		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.ProfileIcon.Xpath")));
-		return new Dashboard360();
-	}
-
-
+	
+	
 	public IcustAddBaseDenominationmaintenance selectMaintenance() {
 		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Dropdown.Xpath")));
 		wait(7000);

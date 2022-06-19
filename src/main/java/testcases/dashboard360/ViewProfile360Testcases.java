@@ -1,4 +1,4 @@
-package testcases;
+package testcases.dashboard360;
 
 import org.testng.annotations.Test;
 
@@ -15,9 +15,10 @@ public class ViewProfile360Testcases extends IcustSpecificMethods {
 	.clickSignInButton()
 	.clickSearch()
 	.enterAccountId()
-	.clickProfile()
+	.clickOnFirstSearchedResult()
 	.clickViewProfile()
-	.clickClose();
+	.closeViewProfile();
+	
 
 }
 }

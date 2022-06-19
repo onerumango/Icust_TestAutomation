@@ -1,4 +1,4 @@
-package testcases;
+package testcases.dashboard360;
 
 import org.testng.annotations.Test;
 
@@ -15,9 +15,10 @@ public class RecentTransactionTestcases extends IcustSpecificMethods{
 	.clickSignInButton()
 	.clickSearch()
 	.enterAccountId()
-	.clickProfile()
+	.clickOnFirstSearchedResult()
 	.clickViewReport()
-	.clickClose();
+	.clickClose()	
+	;
 
 }
 }

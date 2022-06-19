@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.IcustTokenServicesCashDeposit">
+      <class name="testcases.dashboard360.DependentTestcases">
         <methods>
           <include name="launchApplication"/>
-          <include name="TokenServicesCashDeposit"/>
+          <include name="runAddDenominationTestcases"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testcases.IcustTokenServicesCashDeposit -->
+      </class> <!-- testcases.dashboard360.DependentTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

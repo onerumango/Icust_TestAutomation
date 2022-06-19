@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -135,6 +136,13 @@ public class GenericWrapper {
 		wait.until(ExpectedConditions.titleContains(str));
 		return str;
 	}
+	
+	public void explicitWaitTillElementClickable ( WebElement ele) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(4));
+		wait.until(ExpectedConditions.invisibilityOf(ele));
+	}
+	
+	
 
 	public void jsExecutor(WebElement ele) {
 		try {
