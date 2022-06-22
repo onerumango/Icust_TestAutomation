@@ -8,14 +8,14 @@ public class IcustCustomerOnboardingTaskSummary extends IcustSpecificMethods{
 	
 	public IcustCustomerOnboardingTaskSummary enterSearchValue() {
 		enterValue(locateElement("xpath", props.getProperty("IcustCustomerOnboardingTaskSummary.Search.Xpath")),
-				props.getProperty("SearchCustomer"));
+				props.getProperty("SearchCustomerOnboardingTaskSummary"));
 		wait(20000);
 		return this;
 	}
 	
 	public IcustCustomerOnboardingTaskSummary clickCustomerID() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCustomerOnboardingTaskSummary.SearchText.Xpath")));
-		wait(12000);
+		wait(5000);
 		return this;
 	}
 	

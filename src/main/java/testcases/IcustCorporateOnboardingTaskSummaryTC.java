@@ -17,7 +17,11 @@ public class IcustCorporateOnboardingTaskSummaryTC extends IcustSpecificMethods{
 		.enterPassword()
 		.clickSignInButton()
 		.clickCustomerOnboardingTaskSummary()
+<<<<<<< Updated upstream
 		.corporateOnboardingButton()
+=======
+	.corporateOnboardingButton()
+>>>>>>> Stashed changes
 		.corporateEnterSearchValue()
 		.CorporateClickAccountID()
 		.corporateClickApproveButton();

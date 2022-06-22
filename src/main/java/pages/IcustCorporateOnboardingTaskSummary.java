@@ -7,6 +7,15 @@ import base.IcustSpecificMethods;
 public class IcustCorporateOnboardingTaskSummary extends IcustSpecificMethods{
 	
 	
+<<<<<<< Updated upstream
+=======
+	public IcustCorporateOnboardingTaskSummary clickCorporateOnboardingToggleButton() {
+		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
+		wait(5000);
+		return  this;
+	}
+	
+>>>>>>> Stashed changes
 
 	public IcustCorporateOnboardingTaskSummary corporateEnterSearchValue() {
 		enterValue(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.Search.Xpath")),
