@@ -28,4 +28,16 @@ public class IcustCustomerOnboardingTaskSummary extends IcustSpecificMethods{
 		driver.switchTo().window(firstWindow);
 		return this;
 	}
+
+//	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
+//		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
+//		wait(30000);
+//		return this;
+//	}
+
+	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
+		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
+		wait(30000);
+		return new IcustCorporateOnboardingTaskSummary();
+	}
 }

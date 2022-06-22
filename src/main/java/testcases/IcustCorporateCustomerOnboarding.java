@@ -79,6 +79,6 @@ public class IcustCorporateCustomerOnboarding extends IcustSpecificMethods{
 		.enterOtherInformationZipcode()
 		.selectDocumentType()
 		.uploadDocument()
-		.clickCorporateFinish();
+	    .clickCorporateFinish1();
 	}
 }

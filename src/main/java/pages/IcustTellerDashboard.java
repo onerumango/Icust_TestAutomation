@@ -119,11 +119,7 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return new IcustTokenServices();
 	}
 	
-	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
-		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
-		wait(30000);
-		return new IcustCorporateOnboardingTaskSummary();
-	}
+	
 	public pages.IcustLoanAccountAdmissionDetails IcustLoanAccountAdmissionDetailsNextButton() {
 		clickElement(locateElement("xpath", props.getProperty("IcustLoanAccountAdmissionDetails.nextButton.Xpath")));
 		wait(30000);
