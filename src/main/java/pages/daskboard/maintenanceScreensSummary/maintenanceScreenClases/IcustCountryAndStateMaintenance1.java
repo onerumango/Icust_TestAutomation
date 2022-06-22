@@ -1,7 +1,6 @@
-package pages;
+package pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases;
 
 import base.IcustSpecificMethods;
-import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.IcustMaintenanceEditCountryandState;
 
 public class IcustCountryAndStateMaintenance1 extends IcustSpecificMethods{
 

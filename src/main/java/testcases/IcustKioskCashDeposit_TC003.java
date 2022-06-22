@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import base.ICUSTKIOSKMethods;
 import pages.IcustKioskCashDeposit;
 
-public class IcustCashDeposit_TC003 extends ICUSTKIOSKMethods{
+public class IcustKioskCashDeposit_TC003 extends ICUSTKIOSKMethods{
 	@Test
 	public void runIcustKioskLogin() {
 		IcustKioskCashDeposit deposit =new IcustKioskCashDeposit();
@@ -16,11 +16,11 @@ public class IcustCashDeposit_TC003 extends ICUSTKIOSKMethods{
 		.clickSkip()
 		.selectDeposit()
 		.clickDashboardContinue()
-		//.clickSavings()
-		//.selectAccounNumber()
-		//.selectTransactionBranch()
+		.clickSavings()
+		.selectAccounNumber()
+//		.selectTransactionBranch()
 		.enterAmount()
-		.selectDenomination()
+//		.selectDenomination()
 		.completeTransaction();
 	}
 

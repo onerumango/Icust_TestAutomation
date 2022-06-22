@@ -4,7 +4,7 @@ import pages.IcustKioskLogin;
 
 import org.testng.annotations.Test;
 
-public class IcustLogin_TC001 extends ICUSTKIOSKMethods {
+public class IcustKioskLogin_TC001 extends ICUSTKIOSKMethods {
 	
 	@Test
 	public void runIcustKioskLogin() {
