@@ -4,6 +4,7 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <class name="testcases.ICustMobileCashDeposit">
         <methods>
           <include name="closeBrowser"/>
@@ -12,6 +13,8 @@
         </methods>
       </class> <!-- testcases.ICustMobileCashDeposit -->
 =======
+=======
+>>>>>>> Stashed changes
       <class name="testcases.IcustCorporateOnboardingTaskSummaryTC">
         <methods>
           <include name="launchApplication"/>
@@ -19,6 +22,9 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- testcases.IcustCorporateOnboardingTaskSummaryTC -->
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </classes>
   </test> <!-- Default test(failed) -->
