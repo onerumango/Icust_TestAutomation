@@ -11,7 +11,7 @@ public class IcustCorporateOtherInformation extends IcustSpecificMethods{
 
 	public IcustCorporateOtherInformation selectOrganisationType() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.OrganisationTypeDropdown.Xpath")));
-		wait(2000);
+		wait(5000);
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboarding.SelectOrganisationType.Xpath")));
 		wait(2000);
 		return this;
@@ -94,8 +94,9 @@ public class IcustCorporateOtherInformation extends IcustSpecificMethods{
 		return this;
 	}
 	
-	public IcustCorporateOtherInformation clickCorporateFinish() {
-		clickElement(locateElement("xpath", props.getProperty("IcustNewCustomerOnboarding4.Finish.Xpath")));
+	public IcustCorporateOtherInformation clickCorporateFinish1() {
+		wait(15000);
+		clickElement(locateElement("xpath", props.getProperty("IcustNewCorporateCustomerOnboarding4.Finish.Xpath")));
 		wait(5000);
 		return this;
 	}

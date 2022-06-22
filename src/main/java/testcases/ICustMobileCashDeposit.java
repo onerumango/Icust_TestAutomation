@@ -10,7 +10,8 @@ public class ICustMobileCashDeposit extends IcustMobileSpecificMethods{
 	@Test
 	public void runICustMobileCashDeposit() {
 		ICustMobileLogin mLogin =new ICustMobileLogin(); 
-		mLogin.enterPhoneNumber()
+		mLogin
+		.enterPhoneNumber()
 		.clickContinue()
 		.clickCashDepositLogin()
 		.clickCashDeposit()

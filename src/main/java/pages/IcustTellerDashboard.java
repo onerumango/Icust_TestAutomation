@@ -53,7 +53,7 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.OnboardingTaskSummary.Xpath")));
 		windowsHandling();
 		webDriverWait("Rumango");
-		wait(10000);
+		wait(5000);
 		return new IcustCustomerOnboardingTaskSummary();
 	}
 	
@@ -119,11 +119,15 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return new IcustTokenServices();
 	}
 	
+<<<<<<< Updated upstream
+	
+=======
 	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
-		wait(30000);
+		wait(5000);
 		return new IcustCorporateOnboardingTaskSummary();
 	}
+>>>>>>> Stashed changes
 	public pages.IcustLoanAccountAdmissionDetails IcustLoanAccountAdmissionDetailsNextButton() {
 		clickElement(locateElement("xpath", props.getProperty("IcustLoanAccountAdmissionDetails.nextButton.Xpath")));
 		wait(30000);

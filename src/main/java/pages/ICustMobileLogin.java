@@ -3,9 +3,9 @@ package pages;
 import base.IcustMobileSpecificMethods;
 
 public class ICustMobileLogin extends IcustMobileSpecificMethods{
-
+	
 	public ICustMobileLogin enterPhoneNumber() {
-		enterValue(locateElement("xpath", props.getProperty("IcustMobile_PhoneNumber")),props.getProperty("MobileNumber"));	
+		enterValue(locateElement("xpath", props.getProperty("IcustMobile_PhoneNumber")), props.getProperty("MobileNumber"));	
 		wait(5000);
 		return this;
 	}
