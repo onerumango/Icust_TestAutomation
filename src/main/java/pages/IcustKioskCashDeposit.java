@@ -17,12 +17,12 @@ public class IcustKioskCashDeposit extends ICUSTKIOSKMethods {
 	
 	public IcustKioskCashDeposit clickNext() {
 		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_LoginPage.Next.Xpath")));
-		wait(10000);
+		wait(1000);
 		return this;
 	}
 	public IcustKioskCashDeposit clickSkip() {
 		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_LoginPage.fing_auth_skip")));
-		wait(10000);
+		wait(1000);
 		return this;
 	}
 	
@@ -46,7 +46,7 @@ public class IcustKioskCashDeposit extends ICUSTKIOSKMethods {
 	public IcustKioskCashDeposit selectAccounNumber() {
 		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Account_Number_Dropdown")));
 		wait(1000);
-		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Account_Number_Dropdown_77306")));
+		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Account_Number_Dropdown_10952")));
 		return this;
 	}
 	
@@ -67,13 +67,12 @@ public class IcustKioskCashDeposit extends ICUSTKIOSKMethods {
 	}
 	
 	public IcustKioskCashDeposit completeTransaction() {
-		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Transcontinue")));
-		wait(2000);
+//		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Transcontinue")));
 		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.continue")));
 		wait(2000);
 		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Logout")));
 		wait(1000);
-		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Logout_confirmation_Yes")));
+//		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_CashWithdraw.Logout_confirmation_Yes")));
 		wait(1000);
 		return this;
 	}

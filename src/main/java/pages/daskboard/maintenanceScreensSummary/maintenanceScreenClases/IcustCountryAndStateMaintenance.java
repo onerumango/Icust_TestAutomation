@@ -1,4 +1,4 @@
-package pages;
+package pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases;
 
 import org.openqa.selenium.WebElement;
 

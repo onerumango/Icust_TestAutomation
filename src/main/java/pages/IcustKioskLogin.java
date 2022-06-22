@@ -11,12 +11,11 @@ public class IcustKioskLogin extends ICUSTKIOSKMethods{
 	
 	public IcustKioskLogin clickContinue() {
 		clickElement(locateElement("xpath", props.getProperty("IcustMobile_LoginPage.Continue.Xpath")));
-		wait(30000);
+		wait(20000);
 		return this;
 	}
 	
 	public IcustKioskLogin clickNext() {
-		wait(20000);
 		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_LoginPage.Next.Xpath")));
 		wait(10000);
 		return this;

@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,30 +30,27 @@ public class KIOSKGenericWrapper {
 
 		try {
 
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver1.exe");
+			  
 			/*
-			 * System.setProperty("webdriver.chrome.driver",
-			 * "D:\\TestLeaf\\Workspace\\Maven\\ICUST_Automation\\drivers\\chromedriver.exe"
-			 * );
-			 * 
-			 * 
 			 * HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 			 * chromePrefs.put("profile.default_content_settings.popups", 1); // 0,1,2
-			 * 
-			 * ChromeOptions options = new ChromeOptions(); options.addArguments(
-			 * "--disable-web-security", "--ignore-certificate-errors",
-			 * "--allow-running-insecure-content", "--allow-insecure-localhost",
-			 * "--disable-gpu" );
-			 * 
-			 * //options.setExperimentalOption("prefs", chromePrefs); options.
-			 * addArguments("user-data-dir=C:/Users/NPR1002/AppData/Local/Google/Chrome/User Data"
-			 * );
-			 * 
-			 * driver = new ChromeDriver(options);
-			 */
-
+			 */			
+			  ChromeOptions options = new ChromeOptions();
+			  options.addArguments(
+					   "--disable-web-security",
+					   "--ignore-certificate-errors",
+					   "--allow-running-insecure-content",
+					   "--allow-insecure-localhost",
+					   "--disable-gpu"
+					  );
+			 
+			  //options.setExperimentalOption("prefs", chromePrefs);
+			  options.addArguments("user-data-dir=C:/User/Admin/AppData/Local/Google/Chrome/User Data");
+			  
 			
 			  WebDriverManager.chromedriver().setup();
-			  driver = new ChromeDriver();
+			  driver = new ChromeDriver(options);
 			
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
