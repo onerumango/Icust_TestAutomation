@@ -5,6 +5,7 @@
     <classes>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <class name="testcases.ICustMobileCashDeposit">
         <methods>
           <include name="closeBrowser"/>
@@ -15,6 +16,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       <class name="testcases.IcustCorporateOnboardingTaskSummaryTC">
         <methods>
           <include name="launchApplication"/>
@@ -23,6 +26,9 @@
         </methods>
       </class> <!-- testcases.IcustCorporateOnboardingTaskSummaryTC -->
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

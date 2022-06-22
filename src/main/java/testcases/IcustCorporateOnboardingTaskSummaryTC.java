@@ -19,7 +19,11 @@ public class IcustCorporateOnboardingTaskSummaryTC extends IcustSpecificMethods{
 		.clickCustomerOnboardingTaskSummary()
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		.corporateOnboardingButton()
+=======
+	.corporateOnboardingButton()
+>>>>>>> Stashed changes
 =======
 	.corporateOnboardingButton()
 >>>>>>> Stashed changes
