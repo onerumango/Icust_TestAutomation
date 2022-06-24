@@ -1,4 +1,4 @@
-package pages;
+package pages.createAccount;
 
 import java.util.List;
 
@@ -17,21 +17,20 @@ public class IcustCreateAccountDetails extends IcustSpecificMethods{
 	
 	public IcustCreateAccountDetails enterCifNumber() {
 		wait(3000);
-		WebElement cifNumber =locateElement("xpath", props.getProperty("IcustCreateDeposit.CifNumber.Xpath"));
-		enterValue(cifNumber, props.getProperty("CIFNumberValue"));
-		clickElement(locateElement("xpath", props.getProperty("IcustCreateDeposit.CustomerName.Xpath")));
-		//cifNumber.sendKeys(Keys.TAB);
+		enterValue(locateElement("xpath", props.getProperty("IcustCreateDeposit.CifNumber.Xpath")), props.getProperty("CIFNumberValue"));
+//		clickElement(locateElement("xpath", props.getProperty("IcustCreateDeposit.CustomerName.Xpath")));
+//		cifNumber.sendKeys(Keys.TAB);
 		wait(15000);
 		
-		  driver.navigate().refresh(); wait(5000); 
-		  WebElement cif=locateElement("xpath", props.getProperty("IcustCreateDeposit.RefreshCifNumber.Xpath"));
-		 clickElement(cif);
-		 wait(2000);
-		  enterValue(cif, props.getProperty("CIFNumberValue"));
-		  wait(2000);
-		  clickElement(locateElement("xpath",
-		  props.getProperty("IcustCreateDeposit.CustomerName.Xpath"))); 
-		  wait(7000);
+		 driver.navigate().refresh(); wait(5000); 
+//		  WebElement cif=locateElement("xpath", props.getProperty("IcustCreateDeposit.RefreshCifNumber.Xpath"));
+//		 clickElement(cif);
+//		 wait(2000);
+//		  enterValue(cif, props.getProperty("CIFNumberValue"));
+//		  wait(2000);
+//		  clickElement(locateElement("xpath",
+//		  props.getProperty("IcustCreateDeposit.CustomerName.Xpath"))); 
+//		  wait(7000);
 		 
 		return this;
 	}

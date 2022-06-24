@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 
 import base.IcustSpecificMethods;
+import pages.createAccount.IcustFinancialDetails;
 
 public class IcustUnsecuredDetails extends IcustSpecificMethods{
 
