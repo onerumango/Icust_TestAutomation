@@ -2,6 +2,7 @@ package pages.createAccount;
 
 import java.util.List;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import base.IcustSpecificMethods;
@@ -17,12 +18,13 @@ public class IcustCreateAccountDetails extends IcustSpecificMethods{
 	
 	public IcustCreateAccountDetails enterCifNumber() {
 		wait(3000);
-		enterValue(locateElement("xpath", props.getProperty("IcustCreateDeposit.CifNumber.Xpath")), props.getProperty("CIFNumberValue"));
+		WebElement cifNumber=locateElement("xpath", props.getProperty("IcustCreateDeposit.CifNumber.Xpath"));
+		enterValue( cifNumber , props.getProperty("CIFNumberValue"));
 //		clickElement(locateElement("xpath", props.getProperty("IcustCreateDeposit.CustomerName.Xpath")));
-//		cifNumber.sendKeys(Keys.TAB);
-		wait(15000);
+		cifNumber.sendKeys(Keys.TAB);
+		wait(5000);
 		
-		 driver.navigate().refresh(); wait(5000); 
+//		 driver.navigate().refresh(); wait(5000); 
 //		  WebElement cif=locateElement("xpath", props.getProperty("IcustCreateDeposit.RefreshCifNumber.Xpath"));
 //		 clickElement(cif);
 //		 wait(2000);
@@ -72,7 +74,7 @@ public class IcustCreateAccountDetails extends IcustSpecificMethods{
 		for(WebElement ele:allDates)
 		{			
 			String date=ele.getText();
-			if(date.equalsIgnoreCase("31"))
+			if(date.equalsIgnoreCase("30"))
 			{
 				ele.click();
 				break;
