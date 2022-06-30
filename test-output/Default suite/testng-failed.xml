@@ -3,23 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-
-      <class name="testcases.IcustKioskChequeWithdrawalTc">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="launchApplication"/>
-          <include name="runIcustKioskLogin"/>
-        </methods>
-      </class> <!-- testcases.IcustKioskChequeWithdrawalTc -->
-
-      <class name="testcases.IcustCreateDeposit">
+      <class name="testcases.maintenaceScreenTestcases.IcustBankMaintenanceAddEditDeleteTestCase0001">
         <methods>
           <include name="launchApplication"/>
           <include name="closeBrowser"/>
-          <include name="runCreateDeposit"/>
+          <include name="runBankMaintenanceTestcase"/>
         </methods>
-      </class> <!-- testcases.IcustCreateDeposit -->
-
+      </class> <!-- testcases.maintenaceScreenTestcases.IcustBankMaintenanceAddEditDeleteTestCase0001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

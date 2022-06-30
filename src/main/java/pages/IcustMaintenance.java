@@ -1,7 +1,7 @@
 package pages;
 
 import base.IcustSpecificMethods;
-import pages.daskboard.maintenanceScreensSummary.MaintenanceMenus;
+import pages.dashboard.maintenanceScreensSummary.MaintenanceMenus;
 
 public class IcustMaintenance extends IcustSpecificMethods{
 	public MaintenanceMenus clickMaintenance() {
