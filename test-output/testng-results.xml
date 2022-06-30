@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+
   <suite started-at="2022-06-29T07:35:07 GMT-07:00" name="Default suite" finished-at="2022-06-29T07:35:53 GMT-07:00" duration-ms="45533">
     <groups>
     </groups>
@@ -20,6 +21,26 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testcases.IcustKioskChequeWithdrawalTc -->
+
+  <suite started-at="2022-06-24T17:04:25 IST" name="Default suite" finished-at="2022-06-24T17:09:41 IST" duration-ms="316813">
+    <groups>
+    </groups>
+    <test started-at="2022-06-24T17:04:25 IST" name="Default test" finished-at="2022-06-24T17:09:41 IST" duration-ms="316813">
+      <class name="testcases.IcustCreateDeposit">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustCreateDeposit@644baf4a]" started-at="2022-06-24T17:04:25 IST" name="launchApplication" finished-at="2022-06-24T17:04:36 IST" duration-ms="11069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="runCreateDeposit()[pri:0, instance:testcases.IcustCreateDeposit@644baf4a]" started-at="2022-06-24T17:04:36 IST" name="runCreateDeposit" finished-at="2022-06-24T17:09:41 IST" duration-ms="305615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateDeposit -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustCreateDeposit@644baf4a]" started-at="2022-06-24T17:09:41 IST" name="closeBrowser" finished-at="2022-06-24T17:09:41 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.IcustCreateDeposit -->
+
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

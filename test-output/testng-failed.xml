@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+
       <class name="testcases.IcustKioskChequeWithdrawalTc">
         <methods>
           <include name="closeBrowser"/>
@@ -10,6 +11,15 @@
           <include name="runIcustKioskLogin"/>
         </methods>
       </class> <!-- testcases.IcustKioskChequeWithdrawalTc -->
+
+      <class name="testcases.IcustCreateDeposit">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
+          <include name="runCreateDeposit"/>
+        </methods>
+      </class> <!-- testcases.IcustCreateDeposit -->
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

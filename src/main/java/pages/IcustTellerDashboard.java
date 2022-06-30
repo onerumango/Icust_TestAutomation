@@ -1,6 +1,7 @@
 package pages;
 
 import base.IcustSpecificMethods;
+import pages.createAccount.IcustCreateAccountDetails;
 import pages.dashBoard360.IcustTellerDashboardSearchAndViewProfileDashboard360;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.ICUSTEDITBASEDENOMINATION;
 import pages.daskboard.maintenanceScreensSummary.maintenanceScreenClases.IcustAddBaseDenominationmaintenance;
@@ -132,7 +133,10 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return new IcustTokenServices();
 	}
 	
- IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
+
+
+	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
+
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
 		wait(5000);
 		return new IcustCorporateOnboardingTaskSummary();
