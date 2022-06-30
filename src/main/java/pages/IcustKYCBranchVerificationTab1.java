@@ -128,4 +128,5 @@ public class IcustKYCBranchVerificationTab1 extends IcustSpecificMethods{
 		wait(2000);
 		return  new IcustKYCBranchVerificationTab2();
 	}
+	
 }

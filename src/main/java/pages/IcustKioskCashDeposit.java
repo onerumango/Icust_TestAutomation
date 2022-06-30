@@ -76,5 +76,15 @@ public class IcustKioskCashDeposit extends ICUSTKIOSKMethods {
 		wait(1000);
 		return this;
 	}
+	public IcustKioskChequeDeposit clickChequeDeposit() {
+		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_DashBoard.ChequeDeposit")));
+		return new IcustKioskChequeDeposit() ;
+	}
+
+	public IcustKioskChequeWithdrawal clickChequeWithdrawal() {
+		clickElement(locateElement("xpath", props.getProperty("IcustKiosk_DashBoard.ChequeWithdrawal")));
+		return new IcustKioskChequeWithdrawal();
+		
+	}
 
 }

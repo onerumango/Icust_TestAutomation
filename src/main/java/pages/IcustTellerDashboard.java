@@ -32,7 +32,7 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return this;
 	}
 	
-	public IcustTellerDashboard clickCorporateCustomer() {
+	public IcustTellerDashboard clickCorpoclickCorporateCustomerrateCustomer() {
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.CorporateCustomer.Xpath")));
 		wait(1000);
 		return this;
@@ -102,6 +102,19 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return new IcustPickAToken();
 
 	}
+	public IcustRecentTransactionandReverseTransaction clickReverseTransaction() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.ReverseTransaction.Xpath")));
+		wait(5000);
+		return new IcustRecentTransactionandReverseTransaction();
+
+	}
+	public IcustProfileUpdate clickProfileUpdate() {
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.ProfileUpdate1.Xpath")));
+		wait(5000);
+		return new IcustProfileUpdate();
+
+	}
+	
 	
 	public IcustTokenServicesCashDeposit clickServicesToggleButtonforCashDeposit() {
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.TokenServices.clickToggleButton.Xpath")));	
@@ -119,15 +132,12 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		return new IcustTokenServices();
 	}
 	
-<<<<<<< Updated upstream
-	
-=======
-	public IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
+ IcustCorporateOnboardingTaskSummary corporateOnboardingButton() {
 		clickElement(locateElement("xpath", props.getProperty("IcustCorporateCustomerOnboardingtTaskSummary.TellerButton.Xpath")));
 		wait(5000);
 		return new IcustCorporateOnboardingTaskSummary();
 	}
->>>>>>> Stashed changes
+
 	public pages.IcustLoanAccountAdmissionDetails IcustLoanAccountAdmissionDetailsNextButton() {
 		clickElement(locateElement("xpath", props.getProperty("IcustLoanAccountAdmissionDetails.nextButton.Xpath")));
 		wait(30000);
