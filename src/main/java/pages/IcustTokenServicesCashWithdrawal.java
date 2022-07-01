@@ -40,5 +40,14 @@ public class IcustTokenServicesCashWithdrawal extends IcustSpecificMethods{
 		wait(10000);
         return this;
 	}
-
+	public IcustTokenServicesChequeWithdrawal clickChequeWithdrawal() {
+		wait(2000);
+		clickElement(locateElement("xpath",props.getProperty("IcustTellerDashboard.TokenServices.clickChequeWithdrawal.Xpath")));
+		return new IcustTokenServicesChequeWithdrawal();
+	}
+	public IcustTokenServicesChequeDeposit clickChequeDeposit() {
+		wait(2000);
+		clickElement(locateElement("xpath",props.getProperty("IcustTellerDashboard.TokenServices.clickChequeDeposit.Xpath")));
+		return new IcustTokenServicesChequeDeposit();
+	}
 }
