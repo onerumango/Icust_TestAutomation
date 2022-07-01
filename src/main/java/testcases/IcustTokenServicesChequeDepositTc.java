@@ -8,22 +8,20 @@ import org.testng.annotations.Test;
 import base.IcustSpecificMethods;
 import pages.IcustTellerLogin;
 
-public class IcustTokenServicesCashWithdrawal extends IcustSpecificMethods{
-	@Test
+@Test            
+public class IcustTokenServicesChequeDepositTc extends IcustSpecificMethods{
 	public void TokenServicesCashWithdrawal() throws IOException, AWTException {
 		IcustTellerLogin login = new IcustTellerLogin();
 		login.enterUsername()
 		.enterPassword()
 		.clickSignInButton()
 		.clickServicesToggleButtonforCashWithdrawal()
-		.clickCashWithdrawal()
+		.clickChequeDeposit()
 		.enterAccountNumber()
 		.clickFetchlink()
+		.enterChequeNumber()
 		.enterTransactionAmount()
-				
-	  //.selectAccountBranch() 
-      //.selectTransactionBranch()
-				  
-		.clickSaveButton();	
-	}
+		.clickSaveButton();
+		}
+ 
 }

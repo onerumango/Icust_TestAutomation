@@ -21,7 +21,7 @@ public class IcustTokenServicesCashDeposit extends IcustSpecificMethods{
 		.enterAccountNumber()
 		.clickFetchlink()
 		.enterTransactionAmount()
-		.selectAccountBranch() 
+		//.selectAccountBranch() 
 				/*
 				 * .selectAccountBranch() .selectTransactionBranch()
 				 */	
