@@ -20,9 +20,11 @@ public class IcustKioskChequeWithdrawalTc extends ICUSTKIOSKMethods {
 		.clickCQWDAccountNumber()
 		.enterCQWDTransactionAmount()
 		.enterCQWDChequeNumber()
-		.clickCQWDDenomination();
-		//.clickCQWDContinue();
+		.clickCQWDDenomination()
+		.clickCQWDContinue();
 		
 	}
+
+	
 
 }

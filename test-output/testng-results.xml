@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-01T03:34:13 GMT-07:00" name="Default suite" finished-at="2022-07-01T03:35:18 GMT-07:00" duration-ms="65336">
+  <suite started-at="2022-07-04T04:02:50 GMT-07:00" name="Default suite" finished-at="2022-07-04T04:04:00 GMT-07:00" duration-ms="70254">
     <groups>
     </groups>
-    <test started-at="2022-07-01T03:34:13 GMT-07:00" name="Default test" finished-at="2022-07-01T03:35:18 GMT-07:00" duration-ms="65336">
-      <class name="testcases.IcustTokenServicesChequeDepositTc">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustTokenServicesChequeDepositTc@5a45133e]" started-at="2022-07-01T03:34:13 GMT-07:00" name="launchApplication" finished-at="2022-07-01T03:34:23 GMT-07:00" duration-ms="10584" status="PASS">
+    <test started-at="2022-07-04T04:02:50 GMT-07:00" name="Default test" finished-at="2022-07-04T04:04:00 GMT-07:00" duration-ms="70254">
+      <class name="testcases.IcustKioskChequeWithdrawalTc">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustKioskChequeWithdrawalTc@1ed6388a]" started-at="2022-07-04T04:02:50 GMT-07:00" name="launchApplication" finished-at="2022-07-04T04:02:56 GMT-07:00" duration-ms="5900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="TokenServicesCashWithdrawal()[pri:0, instance:testcases.IcustTokenServicesChequeDepositTc@5a45133e]" started-at="2022-07-01T03:34:23 GMT-07:00" name="TokenServicesCashWithdrawal" finished-at="2022-07-01T03:35:18 GMT-07:00" duration-ms="54478" status="PASS">
+        <test-method signature="runIcustKioskLogin()[pri:0, instance:testcases.IcustKioskChequeWithdrawalTc@1ed6388a]" started-at="2022-07-04T04:02:56 GMT-07:00" name="runIcustKioskLogin" finished-at="2022-07-04T04:04:00 GMT-07:00" duration-ms="64125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TokenServicesCashWithdrawal -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustTokenServicesChequeDepositTc@5a45133e]" started-at="2022-07-01T03:35:18 GMT-07:00" name="closeBrowser" finished-at="2022-07-01T03:35:18 GMT-07:00" duration-ms="212" status="PASS">
+        </test-method> <!-- runIcustKioskLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustKioskChequeWithdrawalTc@1ed6388a]" started-at="2022-07-04T04:04:00 GMT-07:00" name="closeBrowser" finished-at="2022-07-04T04:04:00 GMT-07:00" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.IcustTokenServicesChequeDepositTc -->
+      </class> <!-- testcases.IcustKioskChequeWithdrawalTc -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
