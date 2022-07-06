@@ -1,6 +1,6 @@
 package pages;
 
-import java.awt.List;
+import java.util.List;
 
 import org.openqa.selenium.WebElement;
 
