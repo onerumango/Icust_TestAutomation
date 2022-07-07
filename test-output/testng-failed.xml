@@ -3,6 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+ CardOriginationVikas07072022
+      <class name="testcases.IcustCardOriginationTestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="runKYCBranchVerification"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.IcustCardOriginationTestCase -->
+=======
       <class name="testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002">
         <methods>
           <include name="runEntityMaintenanceTestcase"/>
@@ -10,6 +19,7 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002 -->
+ main
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

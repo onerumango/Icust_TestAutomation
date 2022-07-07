@@ -2,6 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+CardOriginationVikas07072022
+  <suite started-at="2022-07-07T15:56:23 IST" name="Default suite" finished-at="2022-07-07T15:56:59 IST" duration-ms="36449">
+    <groups>
+    </groups>
+    <test started-at="2022-07-07T15:56:23 IST" name="Default test" finished-at="2022-07-07T15:56:59 IST" duration-ms="36449">
+      <class name="testcases.IcustCardOriginationTestCase">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustCardOriginationTestCase@942a29c]" started-at="2022-07-07T15:56:23 IST" name="launchApplication" finished-at="2022-07-07T15:56:31 IST" duration-ms="8584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="runKYCBranchVerification()[pri:0, instance:testcases.IcustCardOriginationTestCase@942a29c]" started-at="2022-07-07T15:56:31 IST" name="runKYCBranchVerification" finished-at="2022-07-07T15:56:59 IST" duration-ms="27643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runKYCBranchVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustCardOriginationTestCase@942a29c]" started-at="2022-07-07T15:56:59 IST" name="closeBrowser" finished-at="2022-07-07T15:56:59 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.IcustCardOriginationTestCase -->
+
   <suite started-at="2022-07-07T14:56:32 IST" name="Default suite" finished-at="2022-07-07T14:58:23 IST" duration-ms="111030">
     <groups>
     </groups>
@@ -20,6 +40,7 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002 -->
+main
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
