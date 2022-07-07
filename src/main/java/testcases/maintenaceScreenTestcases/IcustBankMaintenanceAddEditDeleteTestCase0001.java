@@ -31,7 +31,20 @@ public class IcustBankMaintenanceAddEditDeleteTestCase0001 extends IcustSpecific
 		.enterPincode()
 		.enterMobileNumber()
 		.enterPhoneNumber()
-		.clickSaveButton();
+		.clickSaveButton()
+		.clickEditButton()
+		.editBankName()
+		.editBankCode()
+		.editSwiftCode()
+		.editHeadOfficeBranch()
+		.editAddress1()
+		.editAddress2()
+		.editPincode()
+		.editPhoneNumber()
+		.clickUpdateButton()
+		.clickDeleteButton()
+		.clickOkButton()
+		;
 	}
 
 }

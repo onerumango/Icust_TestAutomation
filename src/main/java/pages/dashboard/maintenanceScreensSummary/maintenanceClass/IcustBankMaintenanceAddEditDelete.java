@@ -214,6 +214,19 @@ public class IcustBankMaintenanceAddEditDelete extends IcustSpecificMethods {
 		wait(5000);
         return this;
 	}
+	
+	public IcustBankMaintenanceAddEditDelete clickDeleteButton() {
+		wait(3000);
+		clickElement(locateElement("xpath",props.getProperty("IcustMaintenance.Maintenance.Bank.DeleteButton.Xpath")));
+		wait(2000);
+        return this;
+	}
+	public IcustBankMaintenanceAddEditDelete clickOkButton() {
+		wait(3000);
+		clickElement(locateElement("xpath",props.getProperty("IcustMaintenance.Maintenance.Bank.DeleteButton.ok.Xpath")));
+		wait(5000);
+        return this;
+	}
 
 	
 }
