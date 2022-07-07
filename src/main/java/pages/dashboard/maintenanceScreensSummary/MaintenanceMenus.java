@@ -2,6 +2,7 @@ package pages.dashboard.maintenanceScreensSummary;
 
 import base.IcustSpecificMethods;
 import pages.dashboard.maintenanceScreensSummary.maintenanceClass.IcustBankMaintenanceAddEditDelete;
+import pages.dashboard.maintenanceScreensSummary.maintenanceClass.IcustEntityMaintenanceAddEditDelete;
 import pages.dashboard.maintenanceScreensSummary.maintenanceScreenClases.DenominationMaintenance;
 import pages.dashboard.maintenanceScreensSummary.maintenanceScreenClases.TransactionCashMasterMaintenance;
 import pages.dashboard.maintenanceScreensSummary.maintenanceScreenClases.TransactionChargesMaintenance;
@@ -39,9 +40,13 @@ public class MaintenanceMenus extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("Maintenance.clickTransactionChargesMaintenance.Xpath")));
 		return new TransactionChargesMaintenance();
 	}
-	
+/**---------------------------------------------------------------------------------------**/
 	public IcustBankMaintenanceAddEditDelete clickIcustBankMaintenance() {
 		clickElement(locateElement("xpath", props.getProperty("maintenance.BankMaintenance.xpath")));
 		return new IcustBankMaintenanceAddEditDelete();
+	}
+	public IcustEntityMaintenanceAddEditDelete clickIcustEntityMaintenance() {
+		clickElement(locateElement("xpath", props.getProperty("IcustMaintenance.Maintenance.Entity.Xpath")));
+		return new IcustEntityMaintenanceAddEditDelete();
 	}
 }
