@@ -21,7 +21,7 @@ public class IcustTellerLogin extends IcustSpecificMethods{
 		 * props.getProperty("IcustLoginPage.SignInButton.Xpath")));
 		 */
 		webDriverWait("Rumango");
-		wait(15000);
+		wait(5000);
 		return new IcustTellerDashboard();
 	}
 }

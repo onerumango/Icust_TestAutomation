@@ -156,6 +156,14 @@ public class IcustTellerDashboard extends IcustSpecificMethods{
 		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Createloanaccount.Xpath")));
 		return new LoanCollateralDetails();
 	}
+	public ICustCardOriginationApplicationEntryStage clickCardOrigination() {
+		
+		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.CardOrigination.Xpath")));
+		wait(1000);
+		windowsHandling();
+		wait(1000);
+		return new ICustCardOriginationApplicationEntryStage();
+	}
 	
 //	public IcustTellerDashboard clickSearch() {
 //		clickElement(locateElement("xpath", props.getProperty("IcustTellerDashboard.Search.Xpath")));
