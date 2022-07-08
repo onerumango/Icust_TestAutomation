@@ -2,45 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-CardOriginationVikas07072022
-  <suite started-at="2022-07-07T15:56:23 IST" name="Default suite" finished-at="2022-07-07T15:56:59 IST" duration-ms="36449">
+  <suite started-at="2022-07-08T16:08:55 IST" name="Default suite" finished-at="2022-07-08T16:09:38 IST" duration-ms="43612">
     <groups>
     </groups>
-    <test started-at="2022-07-07T15:56:23 IST" name="Default test" finished-at="2022-07-07T15:56:59 IST" duration-ms="36449">
-      <class name="testcases.IcustCardOriginationTestCase">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustCardOriginationTestCase@942a29c]" started-at="2022-07-07T15:56:23 IST" name="launchApplication" finished-at="2022-07-07T15:56:31 IST" duration-ms="8584" status="PASS">
+    <test started-at="2022-07-08T16:08:55 IST" name="Default test" finished-at="2022-07-08T16:09:38 IST" duration-ms="43612">
+      <class name="testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003@4f80542f]" started-at="2022-07-08T16:08:55 IST" name="launchApplication" finished-at="2022-07-08T16:09:04 IST" duration-ms="8987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="runKYCBranchVerification()[pri:0, instance:testcases.IcustCardOriginationTestCase@942a29c]" started-at="2022-07-07T15:56:31 IST" name="runKYCBranchVerification" finished-at="2022-07-07T15:56:59 IST" duration-ms="27643" status="PASS">
+        <test-method signature="runBranchMaintenanceTestcase()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003@4f80542f]" started-at="2022-07-08T16:09:04 IST" name="runBranchMaintenanceTestcase" finished-at="2022-07-08T16:09:38 IST" duration-ms="34278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runKYCBranchVerification -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustCardOriginationTestCase@942a29c]" started-at="2022-07-07T15:56:59 IST" name="closeBrowser" finished-at="2022-07-07T15:56:59 IST" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.IcustCardOriginationTestCase -->
-
-  <suite started-at="2022-07-07T14:56:32 IST" name="Default suite" finished-at="2022-07-07T14:58:23 IST" duration-ms="111030">
-    <groups>
-    </groups>
-    <test started-at="2022-07-07T14:56:32 IST" name="Default test" finished-at="2022-07-07T14:58:23 IST" duration-ms="111030">
-      <class name="testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002@4f80542f]" started-at="2022-07-07T14:56:32 IST" name="launchApplication" finished-at="2022-07-07T14:56:44 IST" duration-ms="12693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="runEntityMaintenanceTestcase()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002@4f80542f]" started-at="2022-07-07T14:56:44 IST" name="runEntityMaintenanceTestcase" finished-at="2022-07-07T14:58:22 IST" duration-ms="97937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runEntityMaintenanceTestcase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002@4f80542f]" started-at="2022-07-07T14:58:22 IST" name="closeBrowser" finished-at="2022-07-07T14:58:23 IST" duration-ms="344" status="PASS">
+        </test-method> <!-- runBranchMaintenanceTestcase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003@4f80542f]" started-at="2022-07-08T16:09:38 IST" name="closeBrowser" finished-at="2022-07-08T16:09:38 IST" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.maintenaceScreenTestcases.IcustEntityMaintenanceAddEditDelete0002 -->
-main
+      </class> <!-- testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import base.IcustSpecificMethods;
 import pages.IcustTellerLogin;
 
-public class IcustEntityMaintenanceAddEditDelete0002 extends IcustSpecificMethods {
+public class IcustEntityMaintenanceAddEditDeleteTestCase0002 extends IcustSpecificMethods {
 	@Test
 	public void runEntityMaintenanceTestcase() {
 		IcustTellerLogin login= new IcustTellerLogin();
