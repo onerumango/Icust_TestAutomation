@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-08T16:08:55 IST" name="Default suite" finished-at="2022-07-08T16:09:38 IST" duration-ms="43612">
+  <suite started-at="2022-07-13T05:30:03 GMT-07:00" name="Default suite" finished-at="2022-07-13T05:30:16 GMT-07:00" duration-ms="12374">
     <groups>
     </groups>
-    <test started-at="2022-07-08T16:08:55 IST" name="Default test" finished-at="2022-07-08T16:09:38 IST" duration-ms="43612">
-      <class name="testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003@4f80542f]" started-at="2022-07-08T16:08:55 IST" name="launchApplication" finished-at="2022-07-08T16:09:04 IST" duration-ms="8987" status="PASS">
+    <test started-at="2022-07-13T05:30:03 GMT-07:00" name="Default test" finished-at="2022-07-13T05:30:16 GMT-07:00" duration-ms="12374">
+      <class name="testcases.LoginTestcases">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.LoginTestcases@3f6f6701]" started-at="2022-07-13T05:30:03 GMT-07:00" name="launchApplication" finished-at="2022-07-13T05:30:08 GMT-07:00" duration-ms="4249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="runBranchMaintenanceTestcase()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003@4f80542f]" started-at="2022-07-08T16:09:04 IST" name="runBranchMaintenanceTestcase" finished-at="2022-07-08T16:09:38 IST" duration-ms="34278" status="PASS">
+        <test-method signature="runLoginTestcases()[pri:0, instance:testcases.LoginTestcases@3f6f6701]" started-at="2022-07-13T05:30:08 GMT-07:00" name="runLoginTestcases" finished-at="2022-07-13T05:30:15 GMT-07:00" duration-ms="7814" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runBranchMaintenanceTestcase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003@4f80542f]" started-at="2022-07-08T16:09:38 IST" name="closeBrowser" finished-at="2022-07-08T16:09:38 IST" duration-ms="297" status="PASS">
+        </test-method> <!-- runLoginTestcases -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.LoginTestcases@3f6f6701]" started-at="2022-07-13T05:30:15 GMT-07:00" name="closeBrowser" finished-at="2022-07-13T05:30:16 GMT-07:00" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.maintenaceScreenTestcases.IcustBranchMaintenanceAddEditDeleteTestCase0003 -->
+      </class> <!-- testcases.LoginTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
