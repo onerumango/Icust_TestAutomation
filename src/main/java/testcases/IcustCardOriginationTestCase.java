@@ -28,8 +28,8 @@ public class IcustCardOriginationTestCase extends IcustSpecificMethods{
       .enterEmployeeNumber()
       .enterOfficeName()
       .enterDesignation()
-      .selectStartDate()
-      .selectEndtDate()
+      //.selectStartDate()
+      //.selectEndtDate()
       //Monthly Income
       .enterBonus()
       .enterBusiness()
@@ -62,6 +62,23 @@ public class IcustCardOriginationTestCase extends IcustSpecificMethods{
       .enterFixedDeposits()
       .enterLands()
       .enterOthers3()
-      .ClickNextFinancialDetailsPage();
+      .ClickNextFinancialDetailsPage1()
+		//Card Preferences	
+       .selectCardPreferences()
+      .enterDailyLimit()
+      .enterLimitPerTransaction()
+//      .ClickAddIcon()
+//      .selectCardPreferences2()
+//      .enterDailyLimit2()
+//      .enterLimitPerTransaction2()
+      .clicknextCardpreferences()
+      //Account Services
+      .clickaccountStatementFrequency()
+      .clickaccountStatementPreference()
+      .clickCommunicationChannelPreferences()
+      .clicknextAccountServices()
+      //DocumentUpload 
+      .ClickAddDetailsDU()
+      ;
 }
 }

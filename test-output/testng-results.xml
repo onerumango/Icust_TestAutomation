@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-17T22:27:31 GMT-07:00" name="Default suite" finished-at="2022-07-17T22:30:03 GMT-07:00" duration-ms="151717">
+  <suite started-at="2022-07-19T13:17:19 IST" name="Default suite" finished-at="2022-07-19T13:18:59 IST" duration-ms="100221">
     <groups>
     </groups>
-    <test started-at="2022-07-17T22:27:31 GMT-07:00" name="Default test" finished-at="2022-07-17T22:30:03 GMT-07:00" duration-ms="151717">
+    <test started-at="2022-07-19T13:17:19 IST" name="Default test" finished-at="2022-07-19T13:18:59 IST" duration-ms="100221">
       <class name="testcases.IcustCardOriginationTestCase">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustCardOriginationTestCase@3f6f6701]" started-at="2022-07-17T22:27:31 GMT-07:00" name="launchApplication" finished-at="2022-07-17T22:27:35 GMT-07:00" duration-ms="3591" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testcases.IcustCardOriginationTestCase@3f6f6701]" started-at="2022-07-19T13:17:19 IST" name="launchApplication" finished-at="2022-07-19T13:17:22 IST" duration-ms="3087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="runKYCBranchVerification()[pri:0, instance:testcases.IcustCardOriginationTestCase@3f6f6701]" started-at="2022-07-17T22:27:35 GMT-07:00" name="runKYCBranchVerification" finished-at="2022-07-17T22:30:03 GMT-07:00" duration-ms="147975" status="PASS">
+        <test-method signature="runKYCBranchVerification()[pri:0, instance:testcases.IcustCardOriginationTestCase@3f6f6701]" started-at="2022-07-19T13:17:22 IST" name="runKYCBranchVerification" finished-at="2022-07-19T13:18:59 IST" duration-ms="96996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runKYCBranchVerification -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustCardOriginationTestCase@3f6f6701]" started-at="2022-07-17T22:30:03 GMT-07:00" name="closeBrowser" finished-at="2022-07-17T22:30:03 GMT-07:00" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IcustCardOriginationTestCase@3f6f6701]" started-at="2022-07-19T13:18:59 IST" name="closeBrowser" finished-at="2022-07-19T13:18:59 IST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
