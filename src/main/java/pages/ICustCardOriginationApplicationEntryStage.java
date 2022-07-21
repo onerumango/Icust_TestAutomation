@@ -10,7 +10,7 @@ public class ICustCardOriginationApplicationEntryStage extends IcustSpecificMeth
 		return this;
 		}
 	
-//Card Initiation Details	
+//========Card Initiation Details=================================
 	public ICustCardOriginationApplicationEntryStage FillCardInitiationDetails() {
 		wait(2000);
 		clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationEntryStage.CardInitiation.ExistingCustomerToggleButton.Xpath")));
@@ -36,14 +36,14 @@ public class ICustCardOriginationApplicationEntryStage extends IcustSpecificMeth
 		return this;
 		}
 	
-//Customer Information Page	
+//=============Customer Information Page============================	
 	    public ICustCardOriginationApplicationEntryStage ClickNextCustomerInformationPage() {
 		wait(2000);
 		clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationEntryStage.CustomerInformation.NextButton.Xpath")));
 		return this;
 	    }
 	    
-//Financial Details Page	    
+//==============Financial Details Page===============================	    
 	    public ICustCardOriginationApplicationEntryStage enterCurrentlyWorking() {
 			enterValue(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationEntryStage.FinancialDetails.EnterCurrentlyWorking.Xpath")), props.getProperty("ICustCardOriginationApplicationEntryStage_EnterCurrentlyWorking"));
 			wait(1000);
@@ -314,12 +314,125 @@ public class ICustCardOriginationApplicationEntryStage extends IcustSpecificMeth
 			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationEntryStage.AccountServices.ClickNextAccountServices.Xpath")));
 			return this;
 		    }
-
+//====================Document Upload==================================
 	    public ICustCardOriginationApplicationEntryStage ClickAddDetailsDU() {
 			wait(2000);
 			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.DocumentUpload..ClickAddDetailsDU.Xpath")));
+			wait(3000);
 			return this;
 		    }
-			
+	    public ICustCardOriginationApplicationEntryStage ClickDocumentUploadNext() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.DocumentUpload..ClickDocumentUploadNext.Xpath")));
+			return this;
+		    }
+//===============ApplicationEnrichment=============	    
+	    //Interest Details
+	    public ICustCardOriginationApplicationEntryStage ClickInterestDetails() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.InterestDetails..ClickInterestDetails.Xpath")));
+			wait(3000);
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage ClickInterestDetailsNext() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.DocumentUpload..ClickInterestDetailsNext.Xpath")));
+			return this;
+		    }
+	  //Charge Details
 
+	    public ICustCardOriginationApplicationEntryStage enterChargeDetailsAmount() {
+			enterValue(locateElement("xpath", props.getProperty("Icust.CardOrigination.ChargeDetails.enterChargeDetails.Amount.Xpath")), props.getProperty("ICustCardOriginationChargeDetails_enterChargeDetailsAmount"));
+			wait(1000);
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage ClickWaiever() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.DocumentUpload..ClickWaiever.Xpath")));
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage ClickNext() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.DocumentUpload..ClickNext.Xpath")));
+			return this;
+		    }
+//==============Application Underwriting================
+	    //CreditRatingDetails
+	    public ICustCardOriginationApplicationEntryStage ClickApplicationUnderwriting() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationUnderwriting.CreditRatingDetails..ClickApplicationUnderwriting.Xpath")));
+			wait(3000);
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage selectCustomerName () {
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectCustomerName.drop.Xpath")));
+			wait(1000);
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectCustomerName.click.Xpath")));
+			return this;
+		}
+	    public ICustCardOriginationApplicationEntryStage selectScore () {
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectScore.Xpath")));
+			wait(1000);
+			return this;
+		}
+	    public ICustCardOriginationApplicationEntryStage selectSelectAgency () {
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectSelectAgency.drop.Xpath")));
+			wait(1000);
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectSelectAgency.click.Xpath")));
+			return this;
+		}
+	    public ICustCardOriginationApplicationEntryStage enterRatings() {
+			enterValue(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationUnderwriting.enterRatings.Xpath")), props.getProperty("ICustCardOriginationApplicationUnderwriting_enterRatings"));
+			wait(1000);
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage enterRemarks() {
+				enterValue(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationUnderwriting.enterRemarks.Xpath")), props.getProperty("ICustCardOriginationApplicationUnderwriting_enterRemarks"));
+				wait(1000);
+				return this;
+			    }
+	    public ICustCardOriginationApplicationEntryStage ClickDone() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationUnderwriting..ClickDone.Xpath")));
+			return this;
+		    }
+	    //Qualitative Scoreboard 
+	    public ICustCardOriginationApplicationEntryStage enterScorecardID() {
+			enterValue(locateElement("xpath", props.getProperty("Icust.CardOrigination.QualitativeScoreboard.ApplicationUnderwriting.enterScorecardID.Xpath")), props.getProperty("ICustCardOriginationApplicationUnderwriting_enterScorecardID"));
+			wait(1000);
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage selectMonthBorn() {
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectMonthBorn.drop.Xpath")));
+			wait(1000);
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectMonthBorn.click.Xpath")));
+			return this;
+		}
+	    public ICustCardOriginationApplicationEntryStage selectPlanOpt() {
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectPlanOpt.drop.Xpath")));
+			wait(1000);
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectPlanOpt1.click.Xpath")));
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectPlanOpt2.click.Xpath")));
+			clickElement(locateElement("xpath", props.getProperty("ICustCardOriginationApplicationEntryStage.ApplicationUnderwriting.selectPlanOpt3.click.Xpath")));
+			return this;
+		}
+	    public ICustCardOriginationApplicationEntryStage ClickHere() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationUnderwriting..ClickHere1.Xpath")));
+			
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.ApplicationUnderwriting..ClickHere2.Xpath")));
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage enterName1() {
+	    	clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.QualitativeScoreboard.ApplicationUnderwriting.enterName1.Xpath")));
+			enterValue(locateElement("xpath", props.getProperty("Icust.CardOrigination.QualitativeScoreboard.ApplicationUnderwriting.enterName2.Xpath")), props.getProperty("ICustCardOriginationApplicationUnderwriting_enterName1"));
+			wait(1000);
+			return this;
+		    }
+	    public ICustCardOriginationApplicationEntryStage ClickNext2() {
+			wait(2000);
+			clickElement(locateElement("xpath", props.getProperty("Icust.CardOrigination.DocumentUpload..ClickNext2.Xpath")));
+			return this;
+		    }
+	    
 }
