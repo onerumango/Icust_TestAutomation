@@ -79,6 +79,31 @@ public class IcustCardOriginationTestCase extends IcustSpecificMethods{
       .clicknextAccountServices()
       //DocumentUpload 
       .ClickAddDetailsDU()
-      ;
+     //Document is Fetch by CIF Number
+      .ClickDocumentUploadNext()
+     //ApplicationEnrichment
+       //Interest Details
+      .ClickInterestDetails()
+      .ClickInterestDetailsNext()
+      //Charge Details
+      .enterChargeDetailsAmount()
+      .ClickWaiever()
+      .ClickNext()
+      //Application Underwriting
+        //CreditRatingDetails
+      .ClickApplicationUnderwriting()
+      .selectCustomerName()
+      .selectScore()	
+      .selectSelectAgency()
+      .enterRatings()
+      .enterRemarks()
+      .ClickDone()   
+      //Qualitative Scoreboard
+      .enterScorecardID()
+      .selectMonthBorn()
+      .selectPlanOpt()
+      .ClickHere()
+     .enterName1()
+     .ClickNext2();
 }
 }
